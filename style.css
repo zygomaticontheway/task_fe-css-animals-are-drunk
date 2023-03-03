@@ -1,0 +1,42 @@
+img {
+  height: 400px;
+
+}
+
+body {
+  width: 800px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headline {
+  color: rgba(24, 18, 209, 0.579);
+  font-size: 40px;
+  text-align: center;
+}
+
+.subheader {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+.intro {
+  font-style: italic;
+  text-decoration: underline dotted;
+}
+
+.main-text,
+#text-more {
+  text-indent: 30px;
+  font-size: 20px;
+}
+
+.bald-idea {
+  text-decoration: underline chocolate;
+  font-weight: bold;
+}
+
+#endtext {
+  font-size: 20px;
+  color: darkblue;
+}
