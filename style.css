@@ -1,4 +1,64 @@
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 900px;
+}
+main {
+  width: 50%; /* или любой процент/пиксели в зависимости от дизайна */
+  max-width: 1200px; /* Максимальная ширина, чтобы контент не растягивался слишком сильно на больших экранах */
+  margin: auto; /* Автоматический отступ с обеих сторон центрирует блок по горизонтали */
+  height: auto; /* Высота по содержимому, но можно изменить на 100% для полной высоты экрана */
+}
+p{
+  color: rgb(78, 78, 78);
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+}
 img {
-  height: 400px;
-
+  background: radial-gradient(lightyellow, gold, teal, indigo);
+  filter: blur(3px);
+  height: 500px;
+}
+a{
+  font-size: xx-small;
+  float:inline-end;
+}
+h2.headline{
+  color: rgb(60, 60, 60);
+  text-align: center;
+  font-size: 40px;
+}
+.subheader{
+  color: rgb(78, 78, 78);
+  text-align: center;
+  font-size: 120%;
+  padding: 2vh;
+}
+.intro{
+  background-color: rgba(132, 141, 145, 0.388);
+  background-position: center;
+  text-align:center;
+  width: 900px;
+  color: rgb(32, 25, 72);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-text{
+  text-align: justify;
+}
+.text-more{
+  text-transform: uppercase;
+}
+.idea{
+  background-color: rgba(132, 141, 145, 0.388);
+  background-position: center;
+  text-align:center;
+  width: 900px;
+  color: rgb(32, 25, 72);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-element{
+  color: rgba(255, 255, 255, 0);
+}
+span.idea{
+  background-color: rgba(132, 141, 145, 0);
+  font-size: 22px;
 }
